@@ -11,17 +11,36 @@ body {
     color: white;
 }
 
-a {
-    text-decoration: none;
+.sidenav {
+  height: 100%;
+  width: 75px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
 }
 
-a:active {
+.sidenav a {
+    text-decoration: none;
+    padding: 6px 8px 6px 16px;
+    display: block;
+    color:#FFD500;
+}
+
+.sidenav a:active {
     color: red;
 }
 
-a:hover {
-    color: blue;
+.sidenav a:hover {
+    color: #FFD500;
     font-size: 18px;
+}
+
+section {
+  font-family: FreeMono, monospace;
+  text-align: left;
 }
 
 ul, ol {
