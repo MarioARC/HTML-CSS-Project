@@ -13,13 +13,17 @@ body {
 
 .sidenav {
   height: 100%;
-  width: 75px;
+  width: 12%;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
   overflow-x: hidden;
   padding-top: 20px;
+}
+
+a{
+  color: #FFD500;
 }
 
 .sidenav a {
@@ -41,6 +45,8 @@ body {
 section {
   font-family: FreeMono, monospace;
   text-align: left;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 ul, ol {
