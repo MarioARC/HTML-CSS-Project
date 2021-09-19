@@ -40,7 +40,7 @@ body {
 }
 
 .tetrisform {
-  border: 15px solid #FF3213;
+  border: 10px solid #FF3213;
   box-shadow: 5px 5px 5px black;
 }
 
@@ -56,10 +56,11 @@ section {
 }
 
 ul, ol {
-    border: solid 5px #FFD500;
+    border: solid 10px #FF3213;
     list-style-position: inside;
-    background: LightGray;
-    color: black;
+    list-style-type: square;
+    background: black;
+    color: white;
 }
 
 header, footer {
