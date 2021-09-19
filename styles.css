@@ -1,6 +1,6 @@
 html {
     text-align: center;
-    background: #0341AE;
+    background-image: url("https://designshack.net/wp-content/uploads/floral-flower-background.png");
 }
 
 body {
@@ -13,24 +13,21 @@ body {
 
 .sidenav {
   height: 100%;
-  width: 12%;
+  width: 13%;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
   overflow-x: hidden;
   padding-top: 20px;
-}
-
-a{
-  color: #FFD500;
+  background: #0341AE;
 }
 
 .sidenav a {
     text-decoration: none;
     padding: 6px 8px 6px 16px;
     display: block;
-    color:#FFD500;
+    color: #FFD500;
 }
 
 .sidenav a:active {
@@ -40,6 +37,15 @@ a{
 .sidenav a:hover {
     color: #FFD500;
     font-size: 18px;
+}
+
+.tetrisform {
+  border: 15px solid #FF3213;
+  box-shadow: 5px 5px 5px black;
+}
+
+.p-link {
+  color: #FFD500;
 }
 
 section {
