@@ -56,11 +56,12 @@ section {
 }
 
 ul, ol {
-    border: solid 10px #FF3213;
+    border: 10px solid #FF3213;
     list-style-position: inside;
     list-style-type: square;
     background: black;
     color: white;
+    box-shadow: 5px 5px 5px black;
 }
 
 table, th, td {
